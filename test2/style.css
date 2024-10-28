@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+body{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: darkgreen;
+}
+.container {
+    margin-top: 100px;
+    background-color: blue;
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+input {
+    height: 120px;
+    width: 400px;
+    font-size: 25px;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+
+}
